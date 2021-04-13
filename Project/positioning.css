@@ -1,0 +1,119 @@
+.center3 {
+	text-align: center;			/*Align text to center of "box"*/
+	display: inline-block;			/*Set display to inline-block*/
+	position: absolute;			/*Set position to absolute*/
+	margin-left: 45%;			/*Margin left to 45% of screen width*/
+}
+
+.picture p {			/*Apply these rules to all paragraph element in div "picture"*/
+	font-size: 12px;		/*Change font size*/
+	text-align: center;
+	margin-top: -5px;			/*Negative margin at top to move up slightly*/
+}
+
+.picture img {				/*Apply these rules to all picture element in div "picture"*/
+	width: 200px;			/*Set picture width*/
+}
+
+.picture {
+	display: inline-block;
+	vertical-align: top;		/*Align with the top*/
+	width: 210px;
+	text-align: center;
+	position: absolute;
+	left: 20px;
+	z-index: 1;				/*Make it appear above content with default z-index*/
+}
+
+.box1 {
+	width: 100%;		/*Width over entire screen*/
+	height: 280px;
+	float: left;			/*Place on left side of screen*/
+}
+
+.statictext1 {
+	position: absolute;
+	width: calc(100% - 220px);			/*Width is 100% of screen wdith minus 220 pixels*/
+	right: 0px;						/*Place on right side of screen*/
+}
+
+.statictext2 {
+	position: absolute;
+	width: calc(100% - 700px);
+	left: 220px;
+}
+
+.pic {
+	position: absolute;
+	right: 0px;
+}
+
+.relativecode {
+	position: absolute;
+	width: 145px;
+	margin-left: 20px;			/*20 pixel margin to left of element*/
+	top: 950px;				/*950 pixels from top of screen*/
+}
+
+.enclosed {
+	border: 3px dotted blue;			/*Border that is dottec, blue and 3 pixels wide*/
+	padding-top: 50px;
+	margin-top: 450px;
+	margin-bottom: 20px;
+}
+
+.fixed {
+	position: fixed;			/*Set psition to fixed*/
+	right: 10px;				/*10 pixels from right side of screen*/
+	bottom: 65px;			/*65 pixels from bottom of screen*/
+	background-color: aqua;			/*Set background colour to aqua*/
+	z-index: -1;					/*Appear underneath any content with normal z-index*/
+}
+
+.fixedtext {
+	width: calc(100% - 220px);
+	float: right;
+	padding-bottom: 150px;
+}
+
+.zindex {
+	float: right;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.zindex p {
+	font-size: 12px;
+	text-align: center;
+	margin-top: -5px;
+}
+
+.fixedcode {
+	padding-top: 370px;
+	left: 20px;
+	position: relative;
+}
+
+.fix {
+	padding-bottom: 200px;
+}
+
+.sticky {
+	position: sticky;			/*Set position to sticky*/
+	float: right;			/*Place on right side of screen*/
+	top: 150px;			/*150 pixels from top*/
+	background-color: magenta;
+	z-index: 1;
+}
+
+.left {
+	position: relative;
+	left: 20px;
+}
+
+.vid {
+	font-size: 12px;
+	text-align: center;
+	padding-left: 150px;
+}

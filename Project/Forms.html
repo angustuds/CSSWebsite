@@ -1,0 +1,196 @@
+<!DOCTYPE html>			<!--Define document type-->
+<html>
+<head>
+<title>Forms</title>
+<link rel="stylesheet" type="text/css" href="navbar.css">			<!--Link to css page-->
+<link rel="stylesheet" type="text/css" href="everything.css">
+<link rel="stylesheet" type="text/css" href="forms.css">
+<script src="forms.js"></script>								<!--Link to js page-->
+</head>
+
+<body>
+
+<div id="a">		<!--Create a div with no rules but that selects all the content-->
+
+<div class="nav" id="nav">
+
+	<div class="submenu">
+	<button onClick = "toggleNightMode()" id="nav28" onmouseover="hover28()" onmouseout="nohover28()">Toggle Night Mode</button>
+	</div>
+
+    <div class="submenu">
+    <button id = "nav31" onmouseover="hover31()" onmouseout="nohover31()">Change Font</button>
+
+    <div class="substuff">
+        <button style="padding-right:23px" onClick="increaseFont()" id = "nav32" onmouseover="hover32()" onmouseout="nohover32()">Increase Font</button>
+        <button onClick="decreaseFont()" id="nav33" onmouseover="hover33()" onmouseout="nohover33()">Decrease Font</button>
+    </div>
+    </div>
+<div class="float">
+
+	<div class="submenu">
+	<button id="nav2" onmouseover="hover2()" onmouseout="nohover2()"><a href="Home%20Page.html">Home Page</a></button>
+
+	<div class="substuff">
+		<a href="Home%20Page.html#Introduction" id="nav3" onmouseover="hover3()" onmouseout="nohover3()">Introduction</a>
+		<a href="Home%20Page.html#History" id="nav4" onmouseover="hover4()" onmouseout="nohover4()">History</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav5" onmouseover="hover5()" onmouseout="nohover5()"><a href="Basics.html">Basics</a></button>
+
+	<div class="substuff">
+		<a href="Basics.html#Selectors" id="nav6" onmouseover="hover6()" onmouseout="nohover6()">Selectors</a>
+		<a href="Basics.html#Text" id="nav7" onmouseover="hover7()" onmouseout="nohover7()">Text</a>
+		<a href="Basics.html#Background" id="nav8" onmouseover="hover8()" onmouseout="nohover8()">Background</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav9" onmouseover="hover9()" onmouseout="nohover9()"><a href="Internal%20External.html">Internal and External Style Sheets</a></button>
+
+	<div class="substuff">
+		<a href="Internal%20External.html#Internal" id="nav10" onmouseover="hover10()" onmouseout="nohover10()">Internal Style Sheets</a>
+		<a href="Internal%20External.html#External" id="nav11" onmouseover="hover11()" onmouseout="nohover11()">External Style Sheets</a>
+		<a href="Internal%20External.html#Inline" id="nav12" onmouseover="hover12()" onmouseout="nohover12()">Inline Style</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav13" onmouseover="hover13()" onmouseout="nohover13()"><a href="Box%20Model.html">Box Model</a></button>
+
+	<div class="substuff">
+		<a href="Box%20Model.html#Content" id="nav14" onmouseover="hover14()" onmouseout="nohover14()">Content</a>
+		<a href="Box%20Model.html#Padding" id="nav15" onmouseover="hover15()" onmouseout="nohover15()">Padding</a>
+		<a href="Box%20Model.html#Borders" id="nav16" onmouseover="hover16()" onmouseout="nohover16()">Borders</a>
+		<a href="Box%20Model.html#Margins" id="nav17" onmouseover="hover17()" onmouseout="nohover17()">Margins</a>
+		<a href="Box%20Model.html#Background" id="nav18" onmouseover="hover18()" onmouseout="nohover18()">Background</a>
+		<a href="Box%20Model.html#Overflow" id="nav19" onmouseover="hover19()" onmouseout="nohover19()">Overflow</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav20" onmouseover="hover20()" onmouseout="nohover20()"><a href="Positioning.html">Positioning</a></button>
+
+	<div class="substuff">
+		<a href="Positioning.html#Relative" id="nav21" onmouseover="hover21()" onmouseout="nohover21()">Relative</a>
+		<a href="Positioning.html#Fixed" id="nav22" onmouseover="hover22()" onmouseout="nohover22()">Fixed</a>
+		<a href="Positioning.html#Absolute" id="nav23" onmouseover="hover23()" onmouseout="nohover23()">Absolute</a>
+		<a href="Positioning.html#Sticky" id="nav24" onmouseover="hover24()" onmouseout="nohover24()">Sticky</a>
+	
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav25" onmouseover="hover25()" onmouseout="nohover25()"><a href="Forms.html">Forms</a></button>
+
+	<div class="substuff">
+		<a href="Forms.html#Basics" id="nav26" onmouseover="hover26()" onmouseout="nohover26()">Basics</a>
+		<a href="Forms.html#Inputs" id="nav27" onmouseover="hover27()" onmouseout="nohover27()">Inputs</a>
+		<a href="Forms.html#FieldsetLegend" id="nav30" onmouseover="hover30()" onmouseout="nohover30()">Fieldset and Legend</a>
+	
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav29" onmouseover="hover29()" onmouseout="nohover29()"><a href="Quiz.html">Quiz</a></button>
+	</div>
+
+</div>
+</div>
+
+<h1>Forms</h1>
+
+<p>Forms are how you can add an interface into your website for user interaction. The main purpose is to collect the users input and send it to a server. With forms you need to create the controls, provide a way for the user to submit their input and provide a URL to send the data to.</p>
+
+<hr id="hr1">
+
+<a name="Basics">
+<h2>Basics</h2>		<!--Smaller heading-->
+
+<p>Firstly you need to use the <b>&lt;form&gt;</b> <!--The &lt; produces a <-->element. Then you need to define the input element of your form, this is very important as each part of your form must have a type. Later you will be shown the different types of input. The <b>action</b> attribute specifies where you want the users input to go when they submit it.</p>
+<img src="Images/Action.png" id="image2">			<!--Place a picture-->
+
+<p>Every input field must have a <b>name</b> <!--<b> makes the text bold-->attribute associated with it. If there is no name then the data will not be sent.</p>
+
+<hr id="hr2">
+
+<a name="Inputs">
+<h2>Inputs</h2>
+
+<p>With inputs you have define what type of input you are expecting the user to give. There are twenty two different types of input including text, button, checkbox, password and many more. Each has a different functionality and can be used for different types of form. Here are several examples:</p>
+
+<form action="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/scripts/formscript.php" target="_blank">		<!--Create a form that sends the results to that link and opens result in a new tab-->
+	Text:
+	<input type="text" name="textinput">			<!--Text input-->
+	<br><p>This will take a simple text input and assign it to a variable.</p>
+	Password:
+	<input type="password" name="passwordinput">			<!--Password input-->
+	<br><p>This takes a simple text input and assigns it to a variable however the input is hidden from the screen.</p>
+	Checkbox:
+	<input type="checkbox" name="checkboxinput1" value="Yes"> 1				<!--Checkbox input with 3 options-->
+	<input type="checkbox" name="checkboxinput2" value="Yes"> 2
+	<input type="checkbox" name="checkboxinput3" value="Yes"> 3
+	<br><p>Each checkbox has a variable and is assigned a specified variable if the checkbox is selected.</p>
+	Drop down:
+	<select name="drop_down">
+		<option value="None" selected="selected">Please choose</option>			<!--Dropdown input with 3 choices and default option-->
+		<option value="A">Choose A</option>
+		<option value="B">Choose B</option>
+		<option value="C">Choose C</option>
+	</select>
+	<br><p>The drop down menu assigns one of a selection of options to a variable.</p>
+	Multi-line:<br>
+	<textarea name="free_text" rows="5" cols="40"></textarea>					<!--Multi-line input-->
+	<br><p>The multi-line input give the user no restictions on what they want to input and is all assigned to a single variable.</p>
+	<input type="submit" value="Submit">																										<!--Submit button-->
+	<br><p>The submit button the variables and their values are attached to a request for the URL specified by the action attribute.</p>
+	<input type="reset" value="Reset">																											<!--Reset button-->
+	<br><p>The reset button simply clears any values previously entered.</p>
+
+	
+</form>		<!--Closing form tag-->
+
+<hr id="hr3">
+
+<a name="FieldsetLegend">
+<h2>Fieldset and Legend</h2>
+
+<p>The <b>fieldset</b> and the <b>legend</b> elements are used to group together multiple related data in a form. The <b>fieldset</b> creates a border surrounding the group and the <b>legend</b> element adds a title to the section.</p>
+
+<img src="Images/Forms.png" id="image1">		<!--Place an image-->
+
+<form style="padding-top: 20px; padding-bottom: 20px;" action="https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/scripts/formscript.php" target="_blank">
+  	<fieldset>								<!--Create a fieldset around all form element inside opening and closing tags-->
+    		<legend>Title</legend>				<!--Add a title to the fieldset-->
+    		First input:<br>
+    		<input type="text" name="input1"><br>
+    		Second input:<br>
+    		<input type="text" name="input2"><br><br>
+   		<input type="submit" value="Submit"><br><br>
+		<input type="reset" value="Reset">
+  	</fieldset>
+</form>
+
+<p>The code above created the form with the border and the title. Also note in the opening <b>form</b> tag there is an attribute called <b>target</b>. This specifies where the submitted result will open. The default value is to open in the same tab as the website. In this example I have used <i>_blank</i> which opens in a new tab. Other possible values are <i>_parent</i> and <i>_top</i>.</p>
+
+<hr id="hr4">
+
+<div class="floatleft">
+<p>Previous: <a href="Positioning.html" id="link1">Positioning</a></p>
+</div>
+
+<div class="center3">
+<p><a href="Home%20Page.html" id="link2">Home Page</a></p>			<!--Link to home page-->
+</div>
+
+<div class="floatright">
+<p>Next: <a href="Quiz.html" id="link3">Quiz</a></p>
+</div>
+
+</div>
+
+</body>
+</html>
+

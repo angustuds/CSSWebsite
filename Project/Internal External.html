@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Internal and External Style Sheets</title>
+<link rel="stylesheet" type="text/css" href="navbar.css">
+<link rel="stylesheet" type="text/css" href="everything.css">
+<link rel="stylesheet" type="text/css" href="internalexternal.css">
+<script src="internalexternal.js"></script>
+</head>
+
+<body>
+
+<div id="a">
+
+<div class="nav" id="nav">
+
+	<div class="submenu">
+	<button onClick = "toggleNightMode()" id="nav28" onmouseover="hover28()" onmouseout="nohover28()">Toggle Night Mode</button>
+	</div>
+
+    <div class="submenu">
+    <button id = "nav31" onmouseover="hover31()" onmouseout="nohover31()">Change Font</button>
+
+    <div class="substuff">
+        <button style="padding-right:23px" onClick="increaseFont()" id = "nav32" onmouseover="hover32()" onmouseout="nohover32()">Increase Font</button>
+        <button onClick="decreaseFont()" id="nav33" onmouseover="hover33()" onmouseout="nohover33()">Decrease Font</button>
+    </div>
+    </div>
+<div class="float">
+
+	<div class="submenu">
+	<button id="nav2" onmouseover="hover2()" onmouseout="nohover2()"><a href="Home%20Page.html">Home Page</a></button>
+
+	<div class="substuff">
+		<a href="Home%20Page.html#Introduction" id="nav3" onmouseover="hover3()" onmouseout="nohover3()">Introduction</a>
+		<a href="Home%20Page.html#History" id="nav4" onmouseover="hover4()" onmouseout="nohover4()">History</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav5" onmouseover="hover5()" onmouseout="nohover5()"><a href="Basics.html">Basics</a></button>
+
+	<div class="substuff">
+		<a href="Basics.html#Selectors" id="nav6" onmouseover="hover6()" onmouseout="nohover6()">Selectors</a>
+		<a href="Basics.html#Text" id="nav7" onmouseover="hover7()" onmouseout="nohover7()">Text</a>
+		<a href="Basics.html#Background" id="nav8" onmouseover="hover8()" onmouseout="nohover8()">Background</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav9" onmouseover="hover9()" onmouseout="nohover9()"><a href="Internal%20External.html">Internal and External Style Sheets</a></button>
+
+	<div class="substuff">
+		<a href="Internal%20External.html#Internal" id="nav10" onmouseover="hover10()" onmouseout="nohover10()">Internal Style Sheets</a>
+		<a href="Internal%20External.html#External" id="nav11" onmouseover="hover11()" onmouseout="nohover11()">External Style Sheets</a>
+		<a href="Internal%20External.html#Inline" id="nav12" onmouseover="hover12()" onmouseout="nohover12()">Inline Style</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav13" onmouseover="hover13()" onmouseout="nohover13()"><a href="Box%20Model.html">Box Model</a></button>
+
+	<div class="substuff">
+		<a href="Box%20Model.html#Content" id="nav14" onmouseover="hover14()" onmouseout="nohover14()">Content</a>
+		<a href="Box%20Model.html#Padding" id="nav15" onmouseover="hover15()" onmouseout="nohover15()">Padding</a>
+		<a href="Box%20Model.html#Borders" id="nav16" onmouseover="hover16()" onmouseout="nohover16()">Borders</a>
+		<a href="Box%20Model.html#Margins" id="nav17" onmouseover="hover17()" onmouseout="nohover17()">Margins</a>
+		<a href="Box%20Model.html#Background" id="nav18" onmouseover="hover18()" onmouseout="nohover18()">Background</a>
+		<a href="Box%20Model.html#Overflow" id="nav19" onmouseover="hover19()" onmouseout="nohover19()">Overflow</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav20" onmouseover="hover20()" onmouseout="nohover20()"><a href="Positioning.html">Positioning</a></button>
+
+	<div class="substuff">
+		<a href="Positioning.html#Relative" id="nav21" onmouseover="hover21()" onmouseout="nohover21()">Relative</a>
+		<a href="Positioning.html#Fixed" id="nav22" onmouseover="hover22()" onmouseout="nohover22()">Fixed</a>
+		<a href="Positioning.html#Absolute" id="nav23" onmouseover="hover23()" onmouseout="nohover23()">Absolute</a>
+		<a href="Positioning.html#Sticky" id="nav24" onmouseover="hover24()" onmouseout="nohover24()">Sticky</a>
+	
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav25" onmouseover="hover25()" onmouseout="nohover25()"><a href="Forms.html">Forms</a></button>
+
+	<div class="substuff">
+		<a href="Forms.html#Basics" id="nav26" onmouseover="hover26()" onmouseout="nohover26()">Basics</a>
+		<a href="Forms.html#Inputs" id="nav27" onmouseover="hover27()" onmouseout="nohover27()">Inputs</a>
+		<a href="Forms.html#FieldsetLegend" id="nav30" onmouseover="hover30()" onmouseout="nohover30()">Fieldset and Legend</a>
+	
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav29" onmouseover="hover29()" onmouseout="nohover29()"><a href="Quiz.html">Quiz</a></button>
+	</div>
+
+</div>
+</div>
+
+<h1>Internal and External Style Sheets</h1>
+
+<p>When adding style to your website you can either include it in your html document or you can create a separate style sheet containing just your CSS.</p>
+
+<hr id="hr1">
+
+<a name="Internal"></a>
+<h2>Internal Style Sheets</h2>
+
+<p>With internal style sheets you create a style section in the head section of your html document. Then inside of this you write all of your CSS rules.</p>
+
+<div class="imgbox">
+</div>
+
+<div class="leftabit">
+<img src="Images/InternalStyle.png" id="image1">
+</div>
+
+<div class="leftmargin">
+<p>The image to the left shows the head section of a html document and how a style section has been created which contains a rule with a selector of <span class="bold">p</span>. As it has a generic selector this section would change the font of all paragraph sections on the webpage.</p>
+</div>
+<br><br><br><br>
+
+
+<p>Here is a table to show the different advantages and disadvantages of internal style sheets.</p>
+<table style="width:50%">					<!--Table with width 50% of screen-->
+	<tr>							<!--Create a new row in the table-->
+		<th>Advantage</th>				<!--Set the column heading-->
+		<th>Disadvantage</th>
+	</tr>							<!--End row-->
+	<tr>
+		<td>You can style pseudo-elements</td>				<!--Table data column-->
+		<td>Style cannot be applied to multiple documents</td>
+	</tr>
+	<tr>
+		<td>Can create classes and use ids</td>
+		<td>Slower loading times</td>
+	</tr>
+	<tr>
+		<td>File is complete, not reliant on external files</td>
+		<td>Increased file size</td>
+	</tr>
+</table>				<!--End table-->
+
+<hr id="hr2">
+
+<a name="External"></a>
+<h2>External Style Sheets</h2>
+
+<p>With external style sheets you create a separate document containing your CSS and then link it to your html document.</p>
+
+<div class="leftabit2">
+<img src="Images/ExternalLink.png" id="image2">
+</div>
+
+<p>This line must be included in the html document so that the CSS is applied to the html. Once this has been included then you create your classes. For both internal and external style sheets you call the classes in the same way uses the <span class="bold">div</span> command.</p>
+
+<p>Here is a table to show the advantages and disadvantages of external style sheets.</p>
+
+<table style=width:60%>
+	<tr>
+		<th>Advantage</th>
+		<th>Disadvantages</th>
+	</tr>
+	<tr>
+		<td>Cleaner structure of html file</td>
+		<td>If CSS does not load or CSS file is lost, page will not be styled</td>
+	</tr>
+	<tr>
+		<td>Faster loading speed</td>
+	</tr>
+	<tr>
+		<td>Same classes can be used on multiple pages</td>
+	</tr>
+	<tr>
+		<td>As the page content is placed higher in the html file, a search engine is able to index your page much faster giving you a higher page ranking</td>
+	</tr>
+</table>
+
+<hr id="hr3">
+
+<a name="Inline"></a>
+<h2>Inline Style</h2>
+
+<p>Finally there is inline style. This is where you directly apply your style to the html section. Inside of an opening tag you include a style line to declare what CSS rules you want to apply to that element.</p>
+
+<div class="leftabit2">
+<img src="Images/InlineStyle.png" id="image3">
+</div>
+
+<p>Here is a table to show the advantages and disadvantages of external style sheets.</p>
+
+<table style=width:50%>
+	<tr>
+		<th>Advantage</th>
+		<th>Disadvantage</th>
+	</tr>
+	<tr>
+		<td>Easy to test and make quick fixes to</td>
+		<td>You have to style every element and cannot reuse classes</td>
+	</tr>
+	<tr>
+		<td>Faster loading times</td>
+		<td>Cannot style pseudo-elements</td>
+	</tr>
+	<tr>
+		<td>Smaller website</td>
+		<td>Can accidentally override things</td>
+	</tr>
+</table>
+
+<hr id="hr4">
+
+<p>Information from <a href="https://www.hostpapa.co.uk/knowledgebase/understanding-external-internal-inline-css-styles/" target="_blank" id="link1">HostPapa</a>, <a href="https://www.hostinger.com/tutorials/difference-between-inline-external-and-internal-css" target="_blank" id="link2">Hostinger</a>, <a href="https://vineetgupta22.wordpress.com/2011/07/09/inline-vs-internal-vs-external-css/" target="_blank" id="link3">Vineet Gupta</a> and <a href="http://www.c4learn.com/css/css-internal-style/" target="_blank" id="link4">C4Learn</a></p>
+
+<div class="floatleft">
+<p>Previous: <a href="Basics.html" id="link5">Basics</a></p>
+</div>
+
+<div class="center">
+<p><a href="Home%20Page.html" id="link6">Home Page</a></p>
+</div>
+
+<div class="floatright">
+<p>Next: <a href="Box%20Model.html" id="link7">Box Model</a></p>
+</div>
+
+</div>
+
+</body>
+</html>

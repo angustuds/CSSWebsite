@@ -1,0 +1,11 @@
+form, img {					/*Apply to all forms and images*/
+	padding-left: 20px;		/*Have 20 pixel padding on both sides*/
+	padding-right: 20px;
+}
+
+.center3 {
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	margin-left: 28%;
+}

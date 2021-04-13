@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Box Model</title>
+<link rel="stylesheet" type="text/css" href="navbar.css">
+<link rel="stylesheet" type="text/css" href="everything.css">
+<link rel="stylesheet" type="text/css" href="boxmodel.css">
+<script src="boxmodel.js"></script>
+</head>
+
+<body>
+
+<div id="a">
+
+<div class="nav" id="nav">
+
+	<div class="submenu">
+	<button onClick = "toggleNightMode()" id="nav28" onmouseover="hover28()" onmouseout="nohover28()">Toggle Night Mode</button>
+	</div>
+
+    <div class="submenu">
+    <button id = "nav31" onmouseover="hover31()" onmouseout="nohover31()">Change Font</button>
+
+    <div class="substuff">
+        <button style="padding-right:23px" onClick="increaseFont()" id = "nav32" onmouseover="hover32()" onmouseout="nohover32()">Increase Font</button>
+        <button onClick="decreaseFont()" id="nav33" onmouseover="hover33()" onmouseout="nohover33()">Decrease Font</button>
+    </div>
+    </div>
+<div class="float">
+
+	<div class="submenu">
+	<button id="nav2" onmouseover="hover2()" onmouseout="nohover2()"><a href="Home%20Page.html">Home Page</a></button>
+
+	<div class="substuff">
+		<a href="Home%20Page.html#Introduction" id="nav3" onmouseover="hover3()" onmouseout="nohover3()">Introduction</a>
+		<a href="Home%20Page.html#History" id="nav4" onmouseover="hover4()" onmouseout="nohover4()">History</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav5" onmouseover="hover5()" onmouseout="nohover5()"><a href="Basics.html">Basics</a></button>
+
+	<div class="substuff">
+		<a href="Basics.html#Selectors" id="nav6" onmouseover="hover6()" onmouseout="nohover6()">Selectors</a>
+		<a href="Basics.html#Text" id="nav7" onmouseover="hover7()" onmouseout="nohover7()">Text</a>
+		<a href="Basics.html#Background" id="nav8" onmouseover="hover8()" onmouseout="nohover8()">Background</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav9" onmouseover="hover9()" onmouseout="nohover9()"><a href="Internal%20External.html">Internal and External Style Sheets</a></button>
+
+	<div class="substuff">
+		<a href="Internal%20External.html#Internal" id="nav10" onmouseover="hover10()" onmouseout="nohover10()">Internal Style Sheets</a>
+		<a href="Internal%20External.html#External" id="nav11" onmouseover="hover11()" onmouseout="nohover11()">External Style Sheets</a>
+		<a href="Internal%20External.html#Inline" id="nav12" onmouseover="hover12()" onmouseout="nohover12()">Inline Style</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav13" onmouseover="hover13()" onmouseout="nohover13()"><a href="Box%20Model.html">Box Model</a></button>
+
+	<div class="substuff">
+		<a href="Box%20Model.html#Content" id="nav14" onmouseover="hover14()" onmouseout="nohover14()">Content</a>
+		<a href="Box%20Model.html#Padding" id="nav15" onmouseover="hover15()" onmouseout="nohover15()">Padding</a>
+		<a href="Box%20Model.html#Borders" id="nav16" onmouseover="hover16()" onmouseout="nohover16()">Borders</a>
+		<a href="Box%20Model.html#Margins" id="nav17" onmouseover="hover17()" onmouseout="nohover17()">Margins</a>
+		<a href="Box%20Model.html#Background" id="nav18" onmouseover="hover18()" onmouseout="nohover18()">Background</a>
+		<a href="Box%20Model.html#Overflow" id="nav19" onmouseover="hover19()" onmouseout="nohover19()">Overflow</a>
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav20" onmouseover="hover20()" onmouseout="nohover20()"><a href="Positioning.html">Positioning</a></button>
+
+	<div class="substuff">
+		<a href="Positioning.html#Relative" id="nav21" onmouseover="hover21()" onmouseout="nohover21()">Relative</a>
+		<a href="Positioning.html#Fixed" id="nav22" onmouseover="hover22()" onmouseout="nohover22()">Fixed</a>
+		<a href="Positioning.html#Absolute" id="nav23" onmouseover="hover23()" onmouseout="nohover23()">Absolute</a>
+		<a href="Positioning.html#Sticky" id="nav24" onmouseover="hover24()" onmouseout="nohover24()">Sticky</a>
+	
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav25" onmouseover="hover25()" onmouseout="nohover25()"><a href="Forms.html">Forms</a></button>
+
+	<div class="substuff">
+		<a href="Forms.html#Basics" id="nav26" onmouseover="hover26()" onmouseout="nohover26()">Basics</a>
+		<a href="Forms.html#Inputs" id="nav27" onmouseover="hover27()" onmouseout="nohover27()">Inputs</a>
+		<a href="Forms.html#FieldsetLegend" id="nav30" onmouseover="hover30()" onmouseout="nohover30()">Fieldset and Legend</a>
+	
+	</div>
+	</div>
+
+	<div class="submenu">
+	<button id="nav29" onmouseover="hover29()" onmouseout="nohover29()"><a href="Quiz.html">Quiz</a></button>
+	</div>
+
+</div>
+</div>
+
+<h1>Box Model</h1>
+
+<div class="bittoright">
+<img style="width:700px;" src="Images/BoxModel.png">
+</div>
+
+<div class="imgtext">
+<p>Box model from <a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank" id="link1">W3Schools</a></p>
+</div>
+
+<div class="stayleft">
+<p>All html elements are considered as boxes. With CSS, every element is wrapped in a box with various attributes that can be changed. These are the margins, borders, padding, and the actual content.</p>
+</div>
+
+<hr id="hr1">
+
+<a name="Content">
+<h2>Content</h2>
+
+<p>Whether it is text or images this is what the entire box is based around. When you change either the width or height property of an element, the changes happen to the content area so the total size of the element will be bigger if it has margins, borders or padding.</p>
+
+<hr id="hr2">
+
+<a name="Padding">
+<h2>Padding</h2>
+
+<p>The padding is a clear area that surrounds the content increasing the size of the box and moving other boxes or a border further away. You can either set the padding to be the same all around or you can set the different sides to have different values or only set certain sides to have padding.</p>
+
+<div class="nopad">
+<img src="Images/Padding.png">
+</div>
+
+<div class="bittoright2">
+<img src="Images/Padding.png">
+</div>
+
+<p>The two images above are the same however with the first I have styled it with no padding and the second I have added the rule shown. I also added a background colour so that you can see the effect of the padding as it is transparent by default. The area around the image has been increased and if a border was to be added then it would go around the coloured area.</p>
+
+<div class="nopadding">
+<img src="Images/PaddingTop.png">
+</div>
+
+<div class="withpadding">
+<img src="Images/PaddingTop.png">
+</div>
+
+<p>With the two images above I have again styled the first with no padding and the second with the rule shown. As the coloured area shows the second image has an area above it but on no other sides.</p>
+
+<hr id="hr3">
+
+<a name="Borders">
+<h2>Borders</h2>
+
+<p>You can add a border to each element using the border property. There are three properties to a border; width, style and colour. The style has to be specified but if width and colour aren't then the width will be set to medium and the colour will be the same as the text. You can set all the properties using one single rule or in three separate rules. You do not have to have the same style, colour or width on every side of a border. If you define each property separately then you can list four different rules starting with the top border, followed by the right bottom, then the bottom border and finally the left border.</p>
+
+<div class="bittoright3">
+<img src="Images/Border.png" id="image1">
+</div>
+
+<div class="bitright">
+<img src="Images/BorderSeparate.png" id="image2">
+</div>
+
+<div class="goright">
+<img src="Images/BorderMixed.png" id="image3">
+</div>
+
+<p>Each of the three images above have been styled with the border that they describe showing you the results of each rule and the different ways that you can set the border.</p>
+
+<hr id="hr4">
+
+<a name="Margins">
+<h2>Margins</h2>
+
+<p>The margin is a transparent area which is placed around the outside of a border to move other elements further away. Like padding, you can set the margin size to be the same on every side or you can set the different sides to have different values or only set certain sides to have margins.</p>
+
+<div class="littleright">
+<img src="Images/Margins.png" id="image4">
+</div>
+
+<hr id="hr5">
+
+<a name="Background">
+<h2>Background</h2>
+
+<p>With each box you can set the background to be a colour or an image. This will cover the content part of the box and the padding but not the border or margin. You can set this using either the <span class="bold">background-color</span> or the <span class="bold">background-image</span> command. If you use an image then you can also use <span class="bold">background-position</span> to set where you want the picture to be placed in the box and <span class="bold">background-repeat</span> to set whether you want the image to be repeated or not until it has covered the entire box.</p>
+
+<hr id="hr6">
+
+<a name="Overflow">
+<h2>Overflow</h2>
+
+<p>If you change the size of the box to be smaller than the default one then not all of the content will fit into the box, creating an overflow. There are several different ways of dealing with this using the <span class="bold">overflow</span> command. The default rule is that all the content will be visible and the content will be rendered outside of the element's box. You can change the overflow rule to <span class="bold">hidden</span> which will only allow as much content to be displayed as there is space inside the box. The two other options are <span class="bold">scroll</span> and <span class="bold">auto</span>. Both will not allow the content to go outside of its box however a scroll bar will appear to allow the user to view the rest of the content but in its box.</p>
+
+<hr id="hr7">
+
+<div class="floatleft">
+<p>Previous: <a href="Internal%20External.html" id="link2">Internal and External Style Sheets</a></p>
+</div>
+
+<div class="center2">
+<p><a href="Home%20Page.html" id="link3">Home Page</a></p>
+</div>
+
+<div class="floatright">
+<p>Next: <a href="Positioning.html" id="link4">Positioning</a></p>
+</div>
+
+</div>
+
+</body>
+</html>

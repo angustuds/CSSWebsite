@@ -1,0 +1,64 @@
+body, pre {
+	font-family: Arial, Helvetica, sans-serif;		/*Set font for all text in body section of file*/
+}
+
+.nav {
+	overflow: hidden;				/*Don't show any content that overflows*/
+	background-color: #0A4984;
+}
+
+.nav a {				/*This applies to all links in the "nav" div*/
+	font-size: 17px;			/*Set font size*/
+	color: white;				/*Set font colour*/
+	text-align: center;
+	text-decoration: none;			/*Remove underline from text*/
+}
+
+
+.submenu {
+	float: left;		/*Move to left side*/
+}
+
+.submenu button {		/*Apply to all buttons in "submenu" div*/
+  	font-size: 16px; 
+  	border: none;			/*No border*/
+  	color: white;		/*Change text colour*/
+  	padding: 14px 16px;		/*Have different padding on sides and top/bottom*/
+  	background-color: #0A4984;		/*Set background colour*/
+  	font-family: Arial, Helvetica, sans-serif;			/*Set font*/
+}
+
+
+
+.substuff {
+	display: none;			/*Don't show anything normally*/
+  	position: absolute;
+  	background-color: #0A4984;
+	z-index: 1;				/*Mak it appear over content*/
+}
+
+.substuff a {
+  	float: none;		/*Remove any float*/
+  	color: white;
+  	padding: 14px 16px;
+  	text-decoration: none;			/*Remove any text decoration*/
+  	display: block;			/*Display in block*/
+  	text-align: left;			/*Place text on left of box*/
+}
+
+.substuff button {
+  	float: none;
+  	color: white;
+  	text-decoration: none;
+  	display: block;
+  	text-align: left;
+}
+
+
+.submenu:hover .substuff {		/*When anything in submenu is hovered on this is applied to submenu*/
+  	display: block;				/*Show dropdown menu*/
+}
+
+.float {
+	float: right;
+}

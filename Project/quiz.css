@@ -1,0 +1,14 @@
+form {
+    padding-left: 20px;         /*Padding on left*/
+}
+
+.a {
+    padding-left: 20px;         
+}
+
+.center3 {
+    text-align: center;         /*Align text to centre*/
+	display: inline-block;
+	position: absolute;         /*Absolute position*/
+	margin-left: 40%;
+}

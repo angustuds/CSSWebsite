@@ -1,0 +1,55 @@
+p a:visited {			/*If a link has been visited apply this rule*/
+	color: blue;		/*Set text colour*/
+}
+
+hr {				/*Apply to all hr*/
+	height: 5px;			/*Set height*/
+	background-color: #0A4984;
+	border: 0;				/*Remove border*/
+}
+
+p, pre {		
+	text-align: justify;			/*Text align to justify*/
+	padding-left: 20px;				/*Have 20 pixels padding on both sides*/
+	padding-right: 20px;
+}
+
+.bold {
+	font-weight: bold;			/*Set font to bold*/
+}
+
+.italics {
+	font-style: italic;			/*Set font to italic*/
+}
+
+.underline {
+	text-decoration: underline;			/*Underline text*/
+}
+
+.linethrough {
+	text-decoration: line-through;			/*Line through text*/
+}
+
+.floatright {
+	float: right;
+	padding-right: 20px;
+}
+
+.center {
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	margin-left: 45%;
+}
+
+.floatleft {
+	float: left;
+	padding-left: 20px;
+}
+
+.center2 {
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	margin-left: 20%;
+}

@@ -1,0 +1,29 @@
+.leftabit {
+	position: absolute;			/*Set position to absolute*/
+	left: 20px;
+}
+
+.leftmargin {
+	margin-top: 20px;			/*Set margin on top to 20 pixels*/
+	margin-left: 380px;
+}
+
+table, th, td {				/*Apply to all table, table header and table data*/
+	border: 1px solid black;		/*1 pixel solid black border*/
+	border-collapse: collapse;		/*Combine all borders together*/
+	margin-left: 20px;
+}
+
+td {
+	width: 30% ;		/*30% width of screen*/
+}
+
+
+.leftabit2 {
+	position: relative;
+	left: 20px;
+}
+
+table {
+	margin-bottom: 20px;
+}
